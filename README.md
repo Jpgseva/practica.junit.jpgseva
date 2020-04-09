@@ -3,6 +3,8 @@ Test Junit para probar el ingreso de credenciales en bbdd MySQL
 
 Se trata de introducir un usuario (email) y contraseña (codificada con algoritmo SHA2) en una base de datos MYSQL. Una vez introducidas probar si introduciendo tus credenciales (email) y contraseña estas son correctas segun el algoritmo.
 
+ES NECESARIO DRIVER SQL Y LA CONFIGURACION DE USUARIO Y CONTRASEÑA
+
 Clases:
 
 * Usuario
