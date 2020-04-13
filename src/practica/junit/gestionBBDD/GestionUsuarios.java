@@ -29,7 +29,7 @@ public class GestionUsuarios {
 	    public static Connection con = null;
 	    private static ResultSet resultado;
 	    private static final String USUARIO_BBDD = "****";
-	    private static final String CONTRASEÑA_BBDD = "******";
+	    private static final String CONTRASENHA_BBDD = "******";
 	   
 	    
 	   
@@ -150,7 +150,7 @@ public class GestionUsuarios {
 	    private static void openConnection() {
 	    	System.out.println("Conectando..." );
 	        try {
-				con = DriverManager.getConnection("jdbc:mysql://localhost:3306/*****?serverTimezone=UTC", USUARIO_BBDD, CONTRASEÑA_BBDD);
+				con = DriverManager.getConnection("jdbc:mysql://localhost:3306/*****?serverTimezone=UTC", USUARIO_BBDD, CONTRASENHA_BBDD);
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				System.out.println("Error " + e);
